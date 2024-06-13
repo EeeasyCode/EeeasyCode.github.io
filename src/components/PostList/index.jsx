@@ -33,7 +33,7 @@ const Date = styled.p`
 const Excerpt = styled.p`
   margin-bottom: 32px;
   line-height: 1.7;
-  font-size: 15px;
+  font-size: 16px;
   color: ${props => props.theme.colors.secondaryText};
   word-break: break-all;
 `
@@ -70,7 +70,7 @@ const PostList = ({ postList }) => {
   return (
     <PostListWrapper>
       {postList.slice(0, postCount).map((post, i) => {
-        const { title, date, tags } = post.frontmatter
+        const { title, description, date, tags } = post.frontmatter
         const { excerpt } = post
         const { slug } = post.fields
 
@@ -81,7 +81,11 @@ const PostList = ({ postList }) => {
                 <Link to={slug}>{title}</Link>
               </Title>
               <Date>{date}</Date>
-              <Excerpt>{excerpt}</Excerpt>
+              {description ? (
+                <Excerpt>{description}</Excerpt>
+              ) : (
+                <Excerpt>{excerpt}</Excerpt>
+              )}
               <TagList tagList={tags} />
             </PostWrapper>
 
