@@ -1,8 +1,8 @@
 ---
 title: "이미지 업로드 성능 개선"
 description: "nestjs에서 이미지 업로드 성능 개선하기"
-date: 2021-04-03
-update: 2021-04-03
+date: 2024-04-03
+update: 2024-04-03
 tags:
   - nestjs
   - 성능 개선
