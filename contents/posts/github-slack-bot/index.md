@@ -1,6 +1,6 @@
 ---
-title: "github slack bot 만들기"
-description: "github-action으로 PR 리뷰어 할당 slack 봇 만들기"
+title: "PR 리뷰어 할당 봇 만들기"
+description: "github-action으로 PR 리뷰어 할당을 자동화해보자"
 date: 2024-02-27
 update: 2024-02-27
 tags:
