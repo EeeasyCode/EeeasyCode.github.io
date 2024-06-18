@@ -42,3 +42,11 @@ series: "NestJS"
 ### nestjs에서 swc 적용
 
 ## Result
+
+해당 작업 결과로 docker 이미지 빌드 시간은 301.6s -> 112.6s 로 개선했고,
+이미지 용량도 1GB -> 830MB로 감소시킬 수 있었다.
+| yarn classic | pnpm |
+| ------------------------------------ | ------------------------------------ |
+| [+] Building 301.6s (12/12) FINISHED | [+] Building 112.6s (17/17) FINISHED |
+
+<img width="1157" alt="upload_test" src="https://imgur.com/zJUQ9n9.png">
