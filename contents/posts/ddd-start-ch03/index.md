@@ -1,3 +1,14 @@
+---
+title: "도메인 주도 개발 시작하기 - 3장"
+description: "애그리거트가 뭐지?"
+date: 2024-06-23
+update: 2024-06-23
+tags:
+  - DDD
+  - study
+series: "DDD start!"
+---
+
 # 3. 애그리거트
 
 ## 3.1 애그리거트
