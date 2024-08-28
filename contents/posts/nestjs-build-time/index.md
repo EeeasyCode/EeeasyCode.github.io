@@ -1,12 +1,12 @@
 ---
-title: "nestjs 빌드 속도 개선"
-description: "nestjs에서 package manager 마이그레이션과 swc를 통한 빌드 속도 개선하기"
+title: "NestJS 빌드 속도 개선"
+description: "NestJS에서 package manager 마이그레이션과 swc를 통한 빌드 속도 개선하기"
 date: 2024-06-18
 update: 2024-06-18
 tags:
-  - nestjs
+  - NestJS
   - package manager
-  - 성능 개선
+  - 성능개선
 series: "NestJS"
 ---
 

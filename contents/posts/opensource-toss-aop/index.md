@@ -5,7 +5,7 @@ date: 2024.06.20
 update: 2024.06.20
 tags: 
   - 오픈소스
-  - nestjs
+  - NestJS
 series: "Open Source"
 ---
 
