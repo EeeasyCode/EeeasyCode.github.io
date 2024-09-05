@@ -16,7 +16,7 @@ series: "Database"
 우선, 두 가지의 케이스를 고려해본다. 
 
 **Monolithic 환경에서 DB 리소스가 1개인 경우**
-![img](../../../src/images/monolithic.png)
+![img](https://eeeasycode.github.io/src/images/monolithic.png)
 
 대부분 Monolithic 구조에서 1개의 DB 만을 사용하는 경우가 대부분이다. 그래서 각 서비스가 접근해 발생하는 트랜잭션을 하나의 단위로 묶어서 처리한다.
 
@@ -27,7 +27,7 @@ series: "Database"
 <br>
 
 **MSA 환경에서 DB 리소스가 여러 개인 경우**
-![img](../../../src/images/msa.png)
+![img](https://eeeasycode.github.io/src/images/msa.png)
 문제는 위와 같이 각각의 server도 분리되고, DB도 각 server마다 사용되는 MSA 환경의 폴리그랏 형태라면 transaction 들에 대한 관리는 어떻게 해야할까?
 
 ## 문제 상황

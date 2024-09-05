@@ -18,11 +18,11 @@ typeORM에서 연관관계가 없는 테이블 간 join 하는 방법
 
 ### User 테이블
 
-<img width="1166" alt="user_table" src="../../../src/images/user_table.png">
+<img width="1166" alt="user_table" src="https://eeeasycode.github.io/src/images/user_table.png">
 
 ### Payment 테이블
 
-<img width="1179" alt="payment_table" src="../../../src/images/payment_table.png">
+<img width="1179" alt="payment_table" src="https://eeeasycode.github.io/src/images/payment_table.png">
 
 각 테이블은 연관관계를 설정하지 않았고, payment 테이블에서 userId를 저장할 수 있게 했습니다.
 
