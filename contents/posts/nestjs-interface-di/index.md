@@ -62,14 +62,18 @@ export class UserController {
 
 결과는  Nest can't resolve dependencies ~ 에러를 뱉어낸다. 의존성을 해결하지 못해 발생하는 에러인데, 왜 발생하는걸까? 
 
+<br>
+
 ### TS의 interface
-Typescript에서 제공하는 interface는 런타임 시, 사라지게 된다. DI는 런타임 시점에서 동작하게 되는데, 해당 interface를 찾지 못해 의존성을 해결하지 못하는 것이다.
+Typescript에서 제공하는 interface는 런타임 시 사라지게 된다. DI는 런타임 시점에서 동작하게 되는데, 해당 interface를 찾지 못해 의존성을 해결하지 못하는 것이다.
 
 그럼 그냥 사용하지 못하는걸까?
 
+<br>
+
 ### Provider 설정
 
-그건 아니다. 다행히, NestJS의 provider 설정을 직접 해주면 된다.
+그건 아니다. 다행히도 NestJS의 provider 설정을 직접 해주면 된다.
 
 ```ts
 @Module({
@@ -96,6 +100,7 @@ export class UserController {
 먼저, module의 providers에 Inject Token과 실제 구현 클래스를 명시해준다.
 그 뒤, DI 하는 부분에서 내가 명시한 Inject Token으로 Inject 받으면 문제 없이 인터페이스를 DI할 수 있게 된다.
 
----
+<br>
 
-추가 설명 필요 (Inject와 Providers)
+# Reference
+[NestJS Providers](https://github.com/EeeasyCode/EeeasyCode.github.io/blob/main/contents/posts/nestjs-providers/index.md)
