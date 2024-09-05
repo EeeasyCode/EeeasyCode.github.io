@@ -42,5 +42,5 @@ JPG는 PNG에 비해 작은 용량의 크기로 사진을 압축할 수 있지�
 로 webp 변환 시 저장 공간에 대한 효율성을 향상시킬 수 있습니다.
 이는 업로드에 대한 성능 뿐만 아니라, 실제 클라이언트에게 이미지 파일이 전달될 때에 확실한 성능 차이가 보여질 것으로 판단됩니다.
 
-<img width="1157" alt="upload_test" src="https://eeeasycode.github.io/src/images/test.png">
+![](https://velog.velcdn.com/images/eeeasy-code/post/f8753929-ab0b-40a9-abdc-fc0ce7cbf452/image.png)
 
