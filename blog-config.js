@@ -12,6 +12,6 @@ module.exports = {
   },
   utterances: {
     repo: "EeeasyCode/blog-discussion",
-    type: "comments",
+    type: "pathname",
   },
 }
