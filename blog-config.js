@@ -11,7 +11,7 @@ module.exports = {
     email: "eeeasycode@gmail.com",
   },
   utterances: {
-    repo: "EeeasyCode/utterances",
-    type: "pathname",
+    repo: "EeeasyCode/blog-discussion",
+    type: "comments",
   },
 }
