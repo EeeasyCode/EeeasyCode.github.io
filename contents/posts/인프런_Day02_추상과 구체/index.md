@@ -1,12 +1,12 @@
 ---
-title: "추상과 구체"
+title: "[Day02 미션] 추상과 구체"
 description: "도대체 추상화가 뭐길래.."
 date: 2024-09-29
 update: 
 tags:
   - 추상화
   - 클린코드
-series: "읽기좋은 코드"
+series: "인프런 스터디 - 읽기좋은 코드"
 ---
 
 ### TL;DR
