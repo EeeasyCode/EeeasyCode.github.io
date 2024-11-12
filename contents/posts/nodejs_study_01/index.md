@@ -8,6 +8,12 @@ tags:
 series: "NodeJS Study"
 ---
 
+### Prerequisite :
+본 글에서 언급되지만, 직접적인 설명은 하지 않는 것들입니다.
+- 비동기/동기
+- Blocking/Non-Blocking
+- Promise, async/await
+
 첫 번째 NodeJS 스터디 주제는 "싱글 스레드" 입니다. Javascript를 접하면서 항상 들었던 말은 "JS는 싱글 스레드 기반의 언어" 라는 것인데요. 저는, 싱글 스레드 기반이라는 것을 그냥 아 그렇구나 하고 추가적인 학습을 하진 않았어요. 
 
 NodeJS가 동작하는 방식을 이해하지 않은 채로 코드를 작성하다보니 왜 콜백 함수를 사용하는지, Promise나 async/await 를 사용하면 어떻게 처리되는지 이해하기가 더 어려워졌습니다. 그래서 이 주제를 선정해 학습을 진행했습니다.
