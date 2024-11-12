@@ -13,18 +13,18 @@ series: "주니어 백엔드 개발자의 MSA 개발기"
 
 최근에 진행하고 있는 프로젝트에서 저희는 마이크로 서비스 아키텍처를 도입했습니다. 기술 스택 선정에 있어서 우선 가장 자주 사용되는 기술들과 Cloud Native 환경에 적합한 기술들을 선정하기 위해 노력했습니다.
 
-프로젝트에서 사용중인 기술 Spec
-- K8s
-- istio (Service mesh, Ingress Gateway)
-- argoCD
-- Prometheus
-- jaeger
-- EFK
+### 프로젝트에서 사용중인 기술 Spec
+> - K8s
+> - istio (Service mesh, Ingress Gateway)
+> - argoCD
+> - Prometheus
+> - jaeger
+> - EFK
 
 또한, 내부 service들은 Knative로 구성된 NodeJS 기반 알림 서버를 제외하고 Spring 기반의 WAS로 운영되고 있습니다. 내부 service들은 service mesh로 구성되어 있고, 외부의 트래픽은 gateway를 통해 내부 service들로 접근하게 됩니다.
 간략히 그림으로 나타내면 다음과 같겠네요.
 
-![alt text](image.png)
+![서비스 아키텍처](image.png)
 
 ## Gateway 
 
@@ -33,11 +33,11 @@ series: "주니어 백엔드 개발자의 MSA 개발기"
 저희 프로젝트에서는 Spring Cloud Gateway를 API 게이트웨이로, Istio Ingress Gateway를 인그레스 게이트웨이로 활용하는 구조를 택했습니다.
 
 실제 Kiali를 통해 볼 수 있는 저희 서비스의 gateway traffic 흐름은 다음과 같습니다.
-![alt text](image-1.png)
+![kiali graph](image-1.png)
 
 ## Istio Ingress Gateway 선택 이유
 
-![alt text](image-3.png)
+![istio](image-3.png)
 
 사실, 저희 서비스에서 실제로 L4 트래픽을 관리할 일은 많지 않지만 기본적인 정책들을 적용해보고 싶었기 때문에 가장 앞단에 Ingress Gateway를 배치하게 되었습니다. 일단, Istio는 마이크로서비스 아키텍처에서 강력한 네트워크 관리와 트래픽 제어 기능을 제공하는 서비스 메시 솔루션인데요. 특히 Istio Ingress Gateway는 클러스터 외부로부터 들어오는 요청을 처리하고, 이를 적절한 내부 서비스로 라우팅하는 기능을 담당합니다. 
 
@@ -45,7 +45,7 @@ series: "주니어 백엔드 개발자의 MSA 개발기"
 
 ## Spring Cloud Gateway 선택 이유
 
-![alt text](image-4.png)
+![spring cloud](image-4.png)
 
 api-gateway와 연결된 서비스들이 Spring 기반의 WAS이기에 Spring 친화적으로 L7 트래픽에 대한 필터링과 라우팅을 제공하기 위해 선택했습니다. 다들 Spring Cloud Gateway에 대해서 잘 아실테니 설명은 따로 하지 않을게요.
 
@@ -84,5 +84,5 @@ Istio의 분산 추적 기능과 Spring Cloud Gateway의 로깅 및 메트릭 �
 
 아래처럼 서비스가 안정적으로 동작하는 것만 봐도 뿌듯하네요.
 
-![alt text](image-2.png)
+![나의 작고 소중한 서비스들](image-2.png)
 
