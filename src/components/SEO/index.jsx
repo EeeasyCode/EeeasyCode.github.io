@@ -11,6 +11,10 @@ const SEO = ({ title, description, url }) => {
       <meta property="og:image" content={`${siteUrl}/og-image.png`} />
       {description && <meta name="description" content={description} />}
       {description && <meta property="og:description" content={description} />}
+      <meta
+        name="google-site-verification"
+        content="NtR5H2bFQMtDR6mpgertihx5UPgE3qDzV8c5xuQMHLA"
+      />
     </Helmet>
   )
 }
