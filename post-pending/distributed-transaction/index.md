@@ -10,11 +10,13 @@ series: "Database"
 ---
 
 # 분산 트랜잭션
+
 분산 트랜잭션은 쉽게 설명해서 데이터베이스의 트랜잭션이 하나가 아닌, 분산으로 발생하는 것을 말한다.
 가령, 하나의 서버에서 서로 다른 DB를 사용하여 하나의 작업을 묶는 등 여러 리소스에 영향을 주는 트랜잭션처럼 말이다.
 
 ## 시나리오
-우선, 두 가지의 케이스를 고려해본다. 
+
+우선, 두 가지의 케이스를 고려해본다.
 
 ### Monolithic 환경에서 DB 리소스가 1개인 경우
 
@@ -31,7 +33,6 @@ series: "Database"
 ### MSA 환경에서 DB 리소스가 여러 개인 경우
 
 ![](https://velog.velcdn.com/images/eeeasy-code/post/3cfd7cc0-3473-4f93-a95b-9c54eb91cfb3/image.png)
-
 
 문제는 위와 같이 각각의 server도 분리되고, DB도 각 server마다 사용되는 MSA 환경의 폴리그랏 형태라면 transaction 들에 대한 관리는 어떻게 해야할까?
 
