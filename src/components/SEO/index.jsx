@@ -13,7 +13,7 @@ const SEO = ({ title, description, url }) => {
       {description && <meta property="og:description" content={description} />}
       <meta
         name="google-site-verification"
-        content="NtR5H2bFQMtDR6mpgertihx5UPgE3qDzV8c5xuQMHLA"
+        content="aR-7EHD5C3SxkNr1Ljuy-D6hskRSo6QXEi-wKLCDc7o"
       />
     </Helmet>
   )
