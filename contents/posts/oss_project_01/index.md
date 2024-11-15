@@ -100,14 +100,28 @@ issue를 선정하고 나면, 인제님께서 각 issue에 대한 피드백을 �
 ### [NestJS] @nestjs/microservices should handle RabbitMQ bindings and auto-generated queues
 
 - [진행 이슈 link](https://github.com/nestjs/nest/issues/13931)
-- [PR link ](https://github.com/nestjs/nest/pull/14129)
+- [PR link](https://github.com/nestjs/nest/pull/14129)
+
+> NestJS의 createParamDecorator의 callback 으로 전달되는 context의 type이 현재 any로 추론되는 것을 ExecutionContext Type으로 지정하여 사용자들이 NestJS의 Docs를 참고하지 않아도 createParamDecorator를 사용할 수 있게 하면 좋을 것 같다는 내용의 이슈
+>
+> → NestJS Common 에 존재하는 custom-route-param-metadata.decorator.ts 파일을 수정하여 context의 type을 ExecutionContext로 명시하여 type 안정성 및 type 추론을 할 수 있도록 기여함
 
 ### [NestJS] type narrowing context parameter on createParamDecorator's callback
 
 - [진행 이슈 link](https://github.com/nestjs/nest/issues/14093)
 - [PR link](https://github.com/nestjs/nest/pull/14126)
 
+> nestjs 에서 제공하는 microservices 에서 RabbitMQ 를 사용할 경우, RMQ의 binding 과 auto-generated queues 가 동작하지 않는 이슈
+
+> → 1차 : 실제 원인 부분을 디버깅하여, 해당 문제에 대한 수정점을 코드로 제안하고 그 결과를 메인테이너 및 이슈어에게 제안함
+>
+> → 2차 : microservice의 RMQ 부분 로직에서 빠져있던, binding options을 추가하고 이를 queue에 binding 해주는 로직을 추가함. 또한, DEFAULT로 명시되던 queue name을 auto-generated 된 name으로 지정되도록 로직을 수정함. 이후, PR을 올려 메인테이너가 해당 이슈를 closed 한 뒤, 다음 마일스톤으로 할당함.
+
 ### [Spring Cloud Gateway] [online-docs][4.1.5] 404 from link to properties
 
 - [진행 이슈 link](https://github.com/spring-cloud/spring-cloud-gateway/issues/3500)
 - [PR link](https://github.com/spring-cloud/spring-cloud-gateway/pull/3588)
+
+> Spring Cloud Docs의 잘못 명시된 link로 404 에러가 발생하는 이슈
+>
+> → 문제가 발생하는 부분 수정 후 PR 제안
