@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Changmin]]></title><description><![CDATA[Hello :) I'm Changmin]]></description><link>https://eeeasycode.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 Nov 2024 19:07:40 GMT</lastBuildDate><item><title><![CDATA[오픈 소스 기여: 작은 코드의 큰 가치]]></title><description><![CDATA[최근에 김인제 님께서 진행하시는 "오픈 소스 멘토링…]]></description><link>https://eeeasycode.github.io/oss_project_01/</link><guid isPermaLink="false">https://eeeasycode.github.io/oss_project_01/</guid><pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;최근에 김인제 님께서 진행하시는 &quot;오픈 소스 멘토링 7기&quot; 활동을 진행했어요. 인제 님에 대한 소개는 &lt;a href=&quot;https://github.com/injae-kim&quot;&gt;깃허브 링크&lt;/a&gt;로 대신하겠습니다!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed of Changmin]]></title><description><![CDATA[Hello :) I'm Changmin]]></description><link>https://eeeasycode.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 15 Nov 2024 19:16:02 GMT</lastBuildDate><item><title><![CDATA[오픈 소스 기여: 작은 코드의 큰 가치]]></title><description><![CDATA[최근에 김인제 님께서 진행하시는 "오픈 소스 멘토링…]]></description><link>https://eeeasycode.github.io/oss_project_01/</link><guid isPermaLink="false">https://eeeasycode.github.io/oss_project_01/</guid><pubDate>Sat, 16 Nov 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;최근에 김인제 님께서 진행하시는 &quot;오픈 소스 멘토링 7기&quot; 활동을 진행했어요. 인제 님에 대한 소개는 &lt;a href=&quot;https://github.com/injae-kim&quot;&gt;깃허브 링크&lt;/a&gt;로 대신하겠습니다!&lt;/p&gt;
 &lt;p&gt;주변 지인의 추천으로 오픈 소스 멘토링을 소개받았었고, 지원자가 정말 많을 것이라는 이야기를 듣고 솔직히 멘토링에 선발될거라고 생각도 못했어요. 그런데 한 번에 되어버렸네요! ㅋㅋ&lt;/p&gt;
 &lt;p&gt;&lt;span class=&apos;gatsby-resp-image-wrapper&apos; style=&apos;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 680px; margin-bottom: 16px;&apos;&gt;
       &lt;a class=&apos;gatsby-resp-image-link&apos; href=&apos;/static/037dd241cf2b41ae9f383b0cf271c0e3/00706/image.png&apos; style=&apos;display: block&apos; target=&apos;_blank&apos; rel=&apos;noopener&apos;&gt;
@@ -108,6 +108,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/nestjs/nest/issues/13931&quot;&gt;진행 이슈 link&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/nestjs/nest/pull/14129&quot;&gt;PR link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eeeasycode.github.io/oss_project_03/&quot;&gt;해결 과정&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;NestJS의 createParamDecorator의 callback 으로 전달되는 context의 type이 현재 any로 추론되는 것을 ExecutionContext Type으로 지정하여 사용자들이 NestJS의 Docs를 참고하지 않아도 createParamDecorator를 사용할 수 있게 하면 좋을 것 같다는 내용의 이슈&lt;/p&gt;
@@ -117,6 +118,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/nestjs/nest/issues/14093&quot;&gt;진행 이슈 link&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/nestjs/nest/pull/14126&quot;&gt;PR link&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://eeeasycode.github.io/oss_project_02/&quot;&gt;해결 과정&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
 &lt;p&gt;nestjs 에서 제공하는 microservices 에서 RabbitMQ 를 사용할 경우, RMQ의 binding 과 auto-generated queues 가 동작하지 않는 이슈&lt;/p&gt;
