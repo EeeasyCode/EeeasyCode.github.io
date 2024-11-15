@@ -1,6 +1,6 @@
 ---
 title: "[NestJS] type narrowing context parameter on createParamDecorator's callback"
-description: "오픈소스 기여 활동"
+description: "NestJS 오픈소스 기여 활동"
 date: 2024-11-16
 update: 2024-11-16
 tags:

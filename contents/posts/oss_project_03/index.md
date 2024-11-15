@@ -6,7 +6,7 @@ update: 2024-11-16
 tags:
   - 오픈소스
   - NestJS
-series: "Open Source"
+series: "NestJS Open Source"
 ---
 
 ### [NestJS] @nestjs/microservices should handle RabbitMQ bindings and auto-generated queues
