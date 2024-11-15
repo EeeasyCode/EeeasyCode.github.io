@@ -95,7 +95,7 @@ issue를 선정하고 나면, 인제님께서 각 issue에 대한 피드백을 �
 
 ### 내가 기여한 것들
 
-마지막으로 제가 멘토링 진행하면서 기여한 것들을 공유할게요!
+마지막으로 제가 멘토링 진행하면서 기여한 것들을 공유할게요! 긴 글 읽어주셔서 감사합니다! :)
 
 ### [NestJS] @nestjs/microservices should handle RabbitMQ bindings and auto-generated queues
 
