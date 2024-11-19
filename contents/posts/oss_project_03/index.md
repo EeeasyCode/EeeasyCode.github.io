@@ -28,7 +28,7 @@ nestjs 에서 제공하는 microservices 에서 RabbitMQ 를 사용할 경우, R
 
 => queue들은 예상된 형태로 이름이 부여되어야 함
 
-### 디버깅 포인트
+### 디버깅 포인트 1
 
 > queue의 이름이 ''로 지정될 때, RabbitMQ 의 옵션처럼 'amq.gen-asdnfks...' 형태가 아닌 'default'로 부여되는지를 파악
 
@@ -40,7 +40,7 @@ nestjs 에서 제공하는 microservices 에서 RabbitMQ 를 사용할 경우, R
 
 => binding은 자동적으로 진행되어야 함
 
-### 디버깅 포인트
+### 디버깅 포인트 2
 
 > binding 에 관련된 option들을 파악
 
@@ -127,3 +127,7 @@ channel.consume(
 queue를 ''으로 설정했을 때, Name이 'default'가 아닌 'amq.gen-...'으로 지정되었고, Binding의 option 또한 내가 지정한대로 잘 적용된 것을 확인할 수 있습니다.
 
 아직, merge되진 않았지만 다른 분께서 좋은 제안인 것 같다는 코멘트와 메인테이너 분께서 해당 이슈를 completed로 변경하신 뒤 milestone을 적용해주신 것으로 보아, 다음 milestone까지 해당 PR에서 추가 피드백이나 논의가 진행될 것으로 예상됩니다.
+
+- 2024.11.20 기준으로 드디어 nestjs 11 milestone에 PR이 merge 되었습니다~~~!
+
+![메인테이너가 직접 merge를 해주셨습니다~!](image-2.png)
