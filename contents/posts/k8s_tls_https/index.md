@@ -23,7 +23,7 @@ series: "주니어 백엔드 개발자의 MSA 개발기"
 
 저희 프로젝트는 이미 GKE 내에 istio 관련 설정이 기본적으로 셋팅되어 있습니다.
 
-<video controls src="키알리.mp4" title="서비스 구성"></video>
+![서비스](https://s3.ezgif.com/tmp/ezgif-3-f7526031b1.gif)
 
 - GKE
 - istio service mesh
@@ -39,7 +39,7 @@ series: "주니어 백엔드 개발자의 MSA 개발기"
 
 cert-manager는 kubernetes 클러스터에서 TLS 인증서의 관리를 자동화해 주는 오픈소스입니다. 이를 통해 인증서의 발급, 갱신 그리고 배포 과정을 자동화하여 보안을 강화하고 운영의 편의성을 높일 수 있습니다.
 
-![Cert Manager](image.png)
+![cert-manager](image-1.png)
 
 cert manager는 다양한 CA와 연동할 수 있는데, 저희 서비스 설정에서는 Let`s Encrypt를 사용했습니다.
 
