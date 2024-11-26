@@ -23,7 +23,7 @@ series: "주니어 백엔드 개발자의 MSA 개발기"
 
 저희 프로젝트는 이미 GKE 내에 istio 관련 설정이 기본적으로 셋팅되어 있습니다.
 
-![서비스](https://s3.ezgif.com/tmp/ezgif-3-f7526031b1.gif)
+![Service Traffic](<ezgif.com-video-to-gif-converter (1).gif>)
 
 - GKE
 - istio service mesh
