@@ -43,7 +43,7 @@ eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0Ijo
 
 JWT는 크게 두 가지 형태로 사용됩니다: **JWS (JSON Web Signature)** 와 **JWE (JSON Web Encryption)**
 
-![alt text](image.png)
+![JWS와 JWE](image.png)
 
 ### JWS (JSON Web Signature)
 
