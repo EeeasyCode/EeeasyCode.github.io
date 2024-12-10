@@ -6,7 +6,6 @@ update:
 tags:
   - koyeb
   - node.js
-series: "ETC"
 ---
 
 최근 프로젝트에서 백오피스를 만들게 되었는데, **React**로 Front 구현, **NodeJS(Express)**로 서버 개발을 진행하게 되었다. 백오피스 환경은 전부 무료 클라우드를 사용하고 싶어, React는 Netlify로 배포를 진행했고 NodeJS는 Koyeb로 배포를 진행했다. React는 성공적으로 배포가 되었지만, NodeJS는 배포 과정에서 에러를 계속 뱉어냈다.
