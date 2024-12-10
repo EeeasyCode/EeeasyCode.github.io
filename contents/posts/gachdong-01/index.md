@@ -1,6 +1,6 @@
 ---
 title: "가천대학교 동아리 모집 관리 서비스"
-description: ""
+description: "프로젝트 홍보하기~"
 date: 2024-12-10
 update:
 tags:
