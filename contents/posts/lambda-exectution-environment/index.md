@@ -74,7 +74,8 @@ exports.handler = async event => {
 <code>/tmp</code> 디렉터리에 저장된 파일은 Execution Environment가 유지되는 한 다음 호출 시에도 접근 가능합니다. 이를 활용하여 캐시나 임시 데이터를 저장할 수 있습니다.
 
 - **백그라운드 프로세스의 지속**
-  함수 종료 시 완료되지 않은 백그라운드 작업이나 콜백 함수는 Execution Environment 재사용 시 다시 실행될 수 있는데요, NodeJS 기반에서 Promise가 다음 함수에서 resolve 되어버리는 문제가 발생할 수 있습니다.
+
+함수 종료 시 완료되지 않은 백그라운드 작업이나 콜백 함수는 Execution Environment 재사용 시 다시 실행될 수 있는데요, NodeJS 기반에서 Promise가 다음 함수에서 resolve 되어버리는 문제가 발생할 수 있습니다.
 
 ## 최적화 사례
 
