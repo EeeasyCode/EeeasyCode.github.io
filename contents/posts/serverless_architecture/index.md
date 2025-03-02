@@ -1,6 +1,7 @@
 ---
 title: "서버리스 아키텍처의 진짜 의미와 오해"
 description: "서버리스, 정말 ‘서버가 없는’ 아키텍처일까?"
+update:
 date: 2025-03-02
 tags:
   - serverless
