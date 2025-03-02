@@ -4,9 +4,9 @@ description: "객체 지향 설계와 디자인 패턴: 핵심 정리"
 date: 2025-01-24
 update:
 tags:
-  - github-action
-  - 자동화
-series: "automation"
+  - Design Pattern
+  - OOP
+series: "GoF Design Pattern"
 ---
 
 # 객체 지향 설계와 디자인 패턴: 핵심 정리
