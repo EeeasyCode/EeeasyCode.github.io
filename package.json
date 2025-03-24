@@ -10,7 +10,6 @@
     "babel-plugin-styled-components": "^2.1.4",
     "gatsby": "^5.11.0",
     "gatsby-image": "^2.4.21",
-    "gatsby-plugin-advanced-sitemap": "^2.1.0",
     "gatsby-plugin-catch-links": "^5.11.0",
     "gatsby-plugin-feed": "^5.11.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
@@ -55,6 +54,7 @@
     "utterances-react-component": "^1.0.0"
   },
   "devDependencies": {
+    "eslint": "^9.23.0",
     "eslint-config-react-app": "^7.0.1",
     "gh-pages": "^5.0.0",
     "prettier": "2.8.8"
@@ -84,5 +84,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/EeeasyCode/EeeasyCode.github.io"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
