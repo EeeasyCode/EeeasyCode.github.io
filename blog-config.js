@@ -11,7 +11,6 @@ module.exports = {
     email: "eeeasycode@gmail.com",
   },
   useAbout: true,
-  // See https://giscus.app/
   utterances: {
     repo: "EeeasyCode/blog-discussion",
     type: "pathname",
