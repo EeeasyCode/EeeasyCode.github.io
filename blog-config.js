@@ -2,7 +2,7 @@ module.exports = {
   title: "Changmin",
   description: "Hello :) I'm Changmin.",
   author: "Changmin",
-  siteUrl: "https://eeeasycode.github.io/",
+  siteUrl: "https://eeeasycode.github.io",
   links: {
     github: "https://github.com/eeeasycode",
     linkedIn: "https://www.linkedin.com/in/창민-이-5300842a6",
