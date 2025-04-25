@@ -11,8 +11,15 @@ module.exports = {
     email: "eeeasycode@gmail.com",
   },
   useAbout: true,
-  utterances: {
+  giscus: {
     repo: "EeeasyCode/blog-discussion",
-    type: "pathname",
+    repoId: "R_kgDOM40LnA",
+    category: "Comments",
+    categoryId: "DIC_kwDOM40LnM4Cpcsv",
+    mapping: "pathname",
+    strict: "0",
+    reactionsEnabled: "1",
+    inputPosition: "bottom",
+    lang: "ko",
   },
 }
