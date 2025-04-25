@@ -103,4 +103,4 @@ export class UserController {
 <br>
 
 # Reference
-[NestJS Providers](https://github.com/EeeasyCode/EeeasyCode.github.io/blob/main/contents/posts/nestjs-providers/index.md)
+[NestJS Providers](https://github.com/EeeasyCode/EeeasyCode.dev/blob/main/contents/posts/nestjs-providers/index.md)

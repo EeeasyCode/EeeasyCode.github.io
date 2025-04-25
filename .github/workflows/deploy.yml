@@ -1,29 +1,29 @@
-name: Deploy
+# name: Deploy
 
-on: 
-  push: 
-    branches: 
-      - main
+# on: 
+#   push: 
+#     branches: 
+#       - main
 
-permissions: 
-  contents: write
+# permissions: 
+#   contents: write
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: 20.3.1
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: actions/setup-node@v2
+#         with:
+#           node-version: 20.3.1
 
-      - name: Install node packages
-        run: yarn
+#       - name: Install node packages
+#         run: yarn
 
-      - name: Build
-        run: yarn build
+#       - name: Build
+#         run: yarn build
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: public
+#       - name: Deploy 🚀
+#         uses: JamesIves/github-pages-deploy-action@v4
+#         with:
+#           folder: public

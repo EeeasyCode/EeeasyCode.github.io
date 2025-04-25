@@ -2,7 +2,7 @@ const blogConfig = require("./blog-config")
 const { title, description, author, siteUrl } = blogConfig
 
 module.exports = {
-  pathPrefix: "/EeeasyCode.github.io",
+  pathPrefix: "/eeeasycode.dev",
   siteMetadata: {
     title,
     description,
@@ -10,12 +10,6 @@ module.exports = {
     siteUrl,
   },
   plugins: [
-    // {
-    //   resolve: `gatsby-plugin-google-gtag`,
-    //   options: {
-    //     trackingIds: ["G-S9F9021Q9B"],
-    //   },
-    // },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     {

@@ -101,7 +101,7 @@ issue를 선정하고 나면, 인제님께서 각 issue에 대한 피드백을 �
 
 - [진행 이슈 link](https://github.com/nestjs/nest/issues/13931)
 - [PR link](https://github.com/nestjs/nest/pull/14129)
-- [해결 과정](https://eeeasycode.github.io/oss_project_03/)
+- [해결 과정](https://eeeasycode.dev/oss_project_03/)
 
 > NestJS의 createParamDecorator의 callback 으로 전달되는 context의 type이 현재 any로 추론되는 것을 ExecutionContext Type으로 지정하여 사용자들이 NestJS의 Docs를 참고하지 않아도 createParamDecorator를 사용할 수 있게 하면 좋을 것 같다는 내용의 이슈
 >
@@ -111,7 +111,7 @@ issue를 선정하고 나면, 인제님께서 각 issue에 대한 피드백을 �
 
 - [진행 이슈 link](https://github.com/nestjs/nest/issues/14093)
 - [PR link](https://github.com/nestjs/nest/pull/14126)
-- [해결 과정](https://eeeasycode.github.io/oss_project_02/)
+- [해결 과정](https://eeeasycode.dev/oss_project_02/)
 
 > nestjs 에서 제공하는 microservices 에서 RabbitMQ 를 사용할 경우, RMQ의 binding 과 auto-generated queues 가 동작하지 않는 이슈
 
