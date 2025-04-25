@@ -1,6 +1,6 @@
 module.exports = {
   title: "Changmin",
-  description: "Hello :) I'm Changmin",
+  description: "Hello :) I'm Changmin.",
   author: "Changmin",
   siteUrl: "https://eeeasycode.github.io/",
   links: {
@@ -10,6 +10,8 @@ module.exports = {
       "https://docs.google.com/document/d/1EOID5QNm8Muh4J7Yb54cW_xOD3A-Sl9zvRg548QT0Ts/edit?usp=sharing",
     email: "eeeasycode@gmail.com",
   },
+  useAbout: true,
+  // See https://giscus.app/
   utterances: {
     repo: "EeeasyCode/blog-discussion",
     type: "pathname",

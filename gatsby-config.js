@@ -10,7 +10,6 @@ module.exports = {
     siteUrl,
   },
   plugins: [
-    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
@@ -65,7 +64,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/contents/posts`,
+        path: `${__dirname}/contents`,
       },
     },
     {
@@ -150,6 +149,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-resolve-src`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -182,6 +182,7 @@ module.exports = {
               {
                 allMarkdownRemark(
                   sort: { order: DESC, fields: [frontmatter___date] },
+                  filter: { fileAbsolutePath: { regex: "/contents/posts/" } },
                 ) {
                   edges {
                     node {
