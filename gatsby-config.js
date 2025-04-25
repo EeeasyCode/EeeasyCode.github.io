@@ -10,12 +10,12 @@ module.exports = {
     siteUrl,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-gtag`,
-      options: {
-        trackingIds: ["G-S9F9021Q9B"],
-      },
-    },
+    // {
+    //   resolve: `gatsby-plugin-google-gtag`,
+    //   options: {
+    //     trackingIds: ["G-S9F9021Q9B"],
+    //   },
+    // },
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     {
