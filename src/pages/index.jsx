@@ -1,16 +1,15 @@
-import React from "react"
-import _ from "lodash"
 import { graphql } from "gatsby"
+import _ from "lodash"
 
-import Layout from "components/Layout"
-import SEO from "components/SEO"
 import Bio from "components/Bio"
+import Layout from "components/Layout"
 import PostList from "components/PostList"
+import SEO from "components/SEO"
 import SideTagList from "components/SideTagList"
-import Divider from "components/Divider"
+import Tab from "components/Tab"
 import VerticalSpace from "components/VerticalSpace"
 
-import { title, description, siteUrl } from "../../blog-config"
+import { description, siteUrl, title } from "../../blog-config"
 
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
@@ -31,7 +30,7 @@ const BlogIndex = ({ data }) => {
       <SEO title={title} description={description} url={siteUrl} />
       <VerticalSpace size={48} />
       <Bio />
-      <Divider />
+      <Tab postsCount={posts.length} activeTab="posts" />
       <SideTagList tags={tags} postCount={posts.length} />
       <PostList postList={posts} />
     </Layout>
@@ -47,7 +46,10 @@ export const pageQuery = graphql`
         title
       }
     }
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { fileAbsolutePath: { regex: "/contents/posts/" } }
+    ) {
       group(field: frontmatter___tags) {
         fieldValue
         totalCount
@@ -61,7 +63,6 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           update(formatString: "MMM DD, YYYY")
           title
-          description
           tags
         }
       }
