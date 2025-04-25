@@ -1,15 +1,16 @@
-import { graphql } from "gatsby"
+import React from "react"
 import _ from "lodash"
+import { graphql } from "gatsby"
 
-import Bio from "components/Bio"
 import Layout from "components/Layout"
-import PostList from "components/PostList"
 import SEO from "components/SEO"
+import Bio from "components/Bio"
+import PostList from "components/PostList"
 import SideTagList from "components/SideTagList"
-import Tab from "components/Tab"
 import VerticalSpace from "components/VerticalSpace"
+import Tab from "components/Tab"
 
-import { description, siteUrl, title } from "../../blog-config"
+import { title, description, siteUrl } from "../../blog-config"
 
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
