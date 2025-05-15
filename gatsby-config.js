@@ -13,6 +13,13 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-Z6Z6V5P9QF"],
+        delayOnRouteUpdate: 1000,
+      },
+    },
+    {
       resolve: `gatsby-plugin-react-redux`,
       options: {
         pathToCreateStoreModule: "./src/reducers/createStore",
