@@ -140,7 +140,7 @@ private conditionalValidations(object: object, value: any, metadatas: Validation
   }
 ```
 
-## 6. 마무리
+## 5. 마무리
 
 class-transformer는 "변환", class-validator는 "검증"의 책임을 가지고 있으며, NestJS의 ValidationPipe 내부에서는 이 둘이 유기적으로 동작합니다.
 
