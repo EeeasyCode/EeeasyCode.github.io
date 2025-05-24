@@ -2,54 +2,51 @@
 title: "This is about page ✋"
 ---
 
-## English Guide
+<div align="center">
 
-Hello! This section is dedicated to introducing your blog. Here, you can showcase various information to your visitors, such as a blog introduction, personal profile, resume, portfolio, and more.
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=EeeasyCode&fontSize=70)
 
-### Writing Guide
+안녕하세요! 매일 1%씩 성장해 1년 3700% 차이를 만들기 위해 노력하는 개발자, 이창민입니다.
 
-To edit this page, modify the `/contents/about/index.md` file. You can write it in the same way as any other post. The path to this file cannot be changed.
+스타트업에서 다양한 역할을 수행해왔으며, 현재 B2B 마켓팅 자동화 솔루션 스타트업에서 Product Engineer로 근무하고 있습니다.
 
-The Markdown document for the About page only contains a single frontmatter called `title`. The `title` frontmatter will be displayed as the title at the top of the About page.
+저는 새로운 기술을 배우고, 이를 프로젝트에 적용하여 실제 문제를 해결하는 것을 좋아합니다.
 
-### Disabling the About Page
+다양한 경험을 기반으로 사람들과 지식 공유하는 것에 매력을 느끼고 있습니다.
 
-```json
-module.exports = {
+특히, **automation 기술**과 **cloud-native**에 관심이 많습니다.
 
-  // ...
+</div>
 
-  useAbout: false, // 👈
+<br/>
 
-  // ...
-
-}
-```
-
-You can disable the About page by setting the `useAbout` value to false in the `blog-config.js` file. If disabled, the tab in the blog header will be hidden, and visitors will not be able to access this page via the `/about` URL.
-
-## 한국어 가이드
-
-안녕하세요. 이 곳은 블로그를 소개하기 위한 공간입니다. 블로그 또는 자신에 대한 소개부터 이력서, 포트폴리오 등 다양한 정보를 이곳에서 방문자들에게 보여줄 수 있습니다.
-
-### 작성 가이드
-
-이 페이지를 편집하려면, `/contents/about/index.md` 파일을 수정하면 됩니다. 다른 포스팅을 작성하는 것과 동일한 방식으로 작성할 수 있습니다. 이 파일의 경로는 변경할 수 없습니다.
-
-About 페이지의 마크다운 문서는 오직 `title` 이라는 하나의 frontmatter 만 가지고 있습니다. `title` frontmatter 는 About 페이지 상단 제목으로 표시됩니다.
-
-### 비활성화
-
-```json
-module.exports = {
-
-  // ...
-
-  useAbout: false, // 👈
-
-  // ...
-
-}
-```
-
-`blog-config.js` 파일의 `useAbout` 값을 `false` 로 설정하여 About 페이지를 비활성화 할 수 있습니다. 비활성화 된다면, 블로그 상단에 존재하는 탭이 숨겨지고, `/about` 경로로 이 페이지에 접속할 수도 없게 됩니다.
+<div align="center">
+    <h2>Careers</h2>
+  <table>
+    <tr>
+      <th>Company</th>
+      <th>Role</th>
+      <th>Development Stacks</th>
+      <th>Period</th>
+    </tr> 
+    <tr>
+      <td><a href="https://www.flarelane.co.kr/">플레어랩스</a></td>
+      <td>Backend Engineer</td>
+      <td>NestJS, AWS, Docker, Serverless, ElasticSearch</td>
+      <td>2025.01 ~ now</td>
+    </tr>
+    <tr>
+      <td><a href="https://wclub.co.kr/">더블유클럽</a></td>
+      <td>Backend Engineer</td>
+      <td>NestJS, AWS, Docker, Serverless Framework</td>
+      <td>2024.02 ~ 2024.07</td>
+    </tr>
+    <tr>
+      <td>아온스튜디오</td>
+      <td>Backend Engineer</td>
+      <td>Spring, Kotlin, AWS, NodeJS, Serverless Framework</td>
+      <td>2022.02 ~ 2023.12</td>
+    </tr>
+  </table>
+  <br/>
+</div>
