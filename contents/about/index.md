@@ -1,5 +1,5 @@
 ---
-title: "This is about page ✋"
+title: "Simple is the best"
 ---
 
 <div align="center">
