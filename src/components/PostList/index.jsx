@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from "react"
-import styled from "styled-components"
 import _ from "lodash"
+import React, { useEffect, useState } from "react"
+import styled from "styled-components"
 
 import { Link } from "gatsby"
 
-import Title from "components/Title"
 import Divider from "components/Divider"
 import TagList from "components/TagList"
+import Title from "components/Title"
 
 const PostListWrapper = styled.div`
   @media (max-width: 768px) {
@@ -70,8 +70,7 @@ const PostList = ({ postList }) => {
   return (
     <PostListWrapper>
       {postList.slice(0, postCount).map((post, i) => {
-        const { title, date, tags } = post.frontmatter
-        const { excerpt } = post
+        const { title, date, description, tags } = post.frontmatter
         const { slug } = post.fields
 
         return (
@@ -81,7 +80,7 @@ const PostList = ({ postList }) => {
                 <Link to={slug}>{title}</Link>
               </Title>
               <Date>{date}</Date>
-              <Excerpt>{excerpt}</Excerpt>
+              <Excerpt>{description}</Excerpt>
               <TagList tagList={tags} />
             </PostWrapper>
 

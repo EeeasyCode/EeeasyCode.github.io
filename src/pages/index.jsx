@@ -1,16 +1,14 @@
-import React from "react"
-import _ from "lodash"
-import { graphql } from "gatsby"
-
-import Layout from "components/Layout"
-import SEO from "components/SEO"
 import Bio from "components/Bio"
+import Layout from "components/Layout"
 import PostList from "components/PostList"
+import SEO from "components/SEO"
 import SideTagList from "components/SideTagList"
-import VerticalSpace from "components/VerticalSpace"
 import Tab from "components/Tab"
-
-import { title, description, siteUrl } from "../../blog-config"
+import VerticalSpace from "components/VerticalSpace"
+import { graphql } from "gatsby"
+import _ from "lodash"
+import React from "react"
+import { description, siteUrl, title } from "../../blog-config"
 
 const BlogIndex = ({ data }) => {
   const posts = data.allMarkdownRemark.nodes
@@ -27,14 +25,16 @@ const BlogIndex = ({ data }) => {
   }
 
   return (
-    <Layout>
-      <SEO title={title} description={description} url={siteUrl} />
-      <VerticalSpace size={48} />
-      <Bio />
-      <Tab postsCount={posts.length} activeTab="posts" />
-      <SideTagList tags={tags} postCount={posts.length} />
-      <PostList postList={posts} />
-    </Layout>
+    <React.Fragment>
+      <Layout>
+        <SEO title={title} description={description} url={siteUrl} />
+        <VerticalSpace size={48} />
+        <Bio />
+        <Tab postsCount={posts.length} activeTab="posts" />
+        <SideTagList tags={tags} postCount={posts.length} />
+        <PostList postList={posts} />
+      </Layout>
+    </React.Fragment>
   )
 }
 
@@ -64,6 +64,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           update(formatString: "MMM DD, YYYY")
           title
+          description
           tags
         }
       }
